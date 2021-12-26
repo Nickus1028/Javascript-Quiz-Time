@@ -1,0 +1,86 @@
+header {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.Timer {
+    position: absolute;
+    left: 0;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: blue;
+    cursor: pointer;
+    
+
+}
+
+.HighScore {
+    position: absolute;
+    right: 0;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: blue;
+    cursor: pointer;
+
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title {
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: blue;
+}
+
+.Question {
+    position:flex;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+}
+
+.start_btn button {
+    position: flex;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: blue;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+    font-size: 15px;
+    position: absolute;
+    bottom:0;
+    left: 40%;
+}
