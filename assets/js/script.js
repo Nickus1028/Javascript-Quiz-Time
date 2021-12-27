@@ -1,5 +1,7 @@
-var TimeLeft = 6000;
-var currentQuestion = 0;
+var TimeLeft = 60;
+var CurrentQuestion = 0;
+var StartButton = document.querySelector('.start_btn button');
+var TimerDisplay = document.querySelector ('.TimeLeft')
 
 //Quiz Questions stored in an array
 
@@ -82,6 +84,33 @@ var Questions = [
     },
 ]
 
+// Countdown timer.
+
+function startTimer() {
+      function tick(){
+      if (TimeLeft > 0 ) {
+         TimerDisplay.innerHTML = TimeLeft + ' seconds';
+         TimeLeft--;
+         setTimeout(tick, 1000);
+      } else {
+        TimerDisplay.innerHTML = "Game Over!"
+      }
+
+    }
+    tick();
+}
+
+// Starting our Quiz
+
+function beginQuiz() {
+    document.
+
+}
+
+
+TimerDisplay.innerHTML = TimeLeft + ' seconds';
+
+StartButton.addEventListener('click', startTimer)
 
 
 
