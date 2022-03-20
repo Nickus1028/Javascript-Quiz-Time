@@ -1,36 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Code Quiz | FUN </title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript Pop Quiz</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    
-</head>
+    <body> 
 
-<header>
-    <div class = "Timer">Time Left: <span class="TimeLeft"></span></div>
-    <div class = "HighScore"> View High Score</div>
-</header>
+        <header>
+            <h4 id="view-high-scores">View High Scores</h4> 
+            <h4 class="timer">Time: <span id="timer"></span></h4>
+        </header>
 
-<body>
-   
-    
-    <section>
-        
-        <h1 class = "Title">Javascript Coding Challenge</h1>
-        <h2 class = "Question">Try the following code-code related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</h2>
-    
-        <div class = "start_btn"><button>Start Quiz</button></div>
-    
-    </section>
-    
+        <div id="starter-container" class="show">
+            <div class="container start">
+                <h1>Coding Quiz Challenge</h1>  
+                <p>Try to answer the following code-related questions within the time limit. Correct answers are worth 7 points!
+                Keep in mind that incorrect answers will penalize your score by 2 points and your time by 3 seconds!
+                </p>
+                <button class="btn startend" id="start-game">Start Quiz</button>
+            </div>    
+        </div>
 
-</body>
+        <div id="question-container" class="hide">
+            <div class="container questions">
+                <div id="question"></div>
+                <div id="answer-buttons" class="btn-grid"></div>
+            </div>
+        </div>
+
+        <div id="end-container" class="hide">
+           <div class="container end">
+            <div id=score-banner>
+                <h1>All done!</h1>
+            </div>  
+            <form id="initials-form" class="initials">
+              <p> Enter Initials:
+                <input type="text" name="initials" id="initials" class="text-input" />
+                <button class="btn startend" id="sumbit-score" type="submit">Submit</button> </p>
+              </form>
+            </div>
+        </div>
+
+        <div id="high-score-container" class="hide">
+          <div class="high-scores container">
+            <h1 class="high-score">High Scores</h1>
+            <ol id="high-score-list" class="score-list"></ol>
+        <div>
+            <button class="btn" id="go-back">Go back</button>
+            <button class="btn" id="clear-high-scores">Clear high scores</button>
+        </div>
+        </div>
+    </div>
+
+    <div class="hide" id="correct">
+        <h2>------------Correct!!!-------------</h2>
+    </div>
+    <div class="hide" id="wrong">
+        <h2>------------Wrong!!!-------------</h2>
+    </div>
 
 <footer>
-    &copy;2021 Made with ❤️ by Nick B
+    &copy;2022 Made with ❤️ by Nick B
 </footer>
 
 <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
