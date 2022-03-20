@@ -1,9 +1,7 @@
-# Javascript-Quiz-Time
-
-<h1>Challenge 6: Weather Dashboard <h2>
+# Challenge 4: Javascript-Quiz-Time
  
  <h2>Site URL:</h2>
-  https://nickus1028.github.io/Weather-Dashboard/
+ https://nickus1028.github.io/Weather-Dashboard/
  
  <h2>Screenshot<h2>
  <img src="./assets/images/javascript-quiz-time.jpg" alt="Screenshot of the Javascript Quiz Site"></img>
