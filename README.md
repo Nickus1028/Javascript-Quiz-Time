@@ -12,6 +12,6 @@
    
   <ul>
     <li>Uses HTML, Javascript and CSS</li>
-    <li>Dynamically created HTML elements to display questions<li>
+    <li>Dynamically created HTML elements to display questions</li>
     <li>Keep a high score that is saved in your browser</li>
    
