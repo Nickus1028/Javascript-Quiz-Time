@@ -8,7 +8,8 @@
    
  <h2>Summary</h2>
  Quiz your self and your Javascript knowledge by taking this quiz in your browser.
- <br>
+
+ 
  <ul>
     <li>Uses HTML, Javascript and CSS</li>
     <li>Dynamically created HTML elements to display questions</li>
