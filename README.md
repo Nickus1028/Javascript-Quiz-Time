@@ -14,8 +14,9 @@
     <li>Dynamically created HTML elements to display questions</li>
     <li>Keep a high score that is saved in your browser</li>
  </ul>
-<br>   
+
+ 
 <h2>Installation</h2>
-Open the index.html in yoru browser.
+Open the index.html in your browser.
    
 
